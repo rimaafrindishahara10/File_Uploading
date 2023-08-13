@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic folder container styling */
+.folder {
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    background-color: yellow;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+/* Folder icon styling */
+.folder-icon {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    background-color: yellow;
+    border: 1px solid #ccc;
+    margin: 0 auto 10px;
+}
+
+/* Folder flap styling */
+.folder-flap {
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: yellow;
+}
+
+/*.folder-flap:nth-child(1) {*/
+/*    top: 0;*/
+/*    left: 10px;*/
+/*    transform: rotate(-45deg);*/
+/*}*/
+
+/*.folder-flap:nth-child(2) {*/
+/*    top: 0;*/
+/*    right: 10px;*/
+/*    transform: rotate(45deg);*/
+/*}*/
+
+p{
+    margin-top: 60px;
+}
