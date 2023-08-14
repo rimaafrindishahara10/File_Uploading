@@ -56,10 +56,15 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-3" th:each="file:${list}">
+        <div class="col-3 text-center" th:each="fileUpload:${list}">
             <div class="card">
                 <div class="card-body">
-                    <img th:src="@{'img/'+${file.fileName}}" width="100%" height="100px" alt="">
+                    <img th:src="@{'img/'+${fileUpload.fileName}}" width="100%" height="100px" alt="">
+
+                        <button  class="btn btn-warning mt-2 ">Copy</button>
+
+
+
 
                 </div>
             </div>
